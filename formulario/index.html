@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!-- <form> e a estrutura de chama o comando para fazer estrutura formulario -->
+    <form action="" method="">Exemplor
+        <br>
+        <input type="text"> <!-- type tem varios tipo e funcoes, como texto ( escreve normal ) ou ate msm senha ( q fica com ***) --> 
+        <!-- <inpunt> e entrada, dara uma ação (cheque box, salva informçoes )  -->
+         
+         <hr>   
+
+         <br>
+<!-- Exemplos dos type  -->
+         <p>
+             Usuario 
+             <input  type="text"> <br><br><br>
+             Senhar
+             <input type="password" >
+            
+        </p> 
+         
+        <br><hr>
+        <!-- <texterea>, serve para coloca comentarios, tipo o do quero deliver(exemplor) -->
+        <textarea name="" id="">digite suas informações</textarea>
+
+        <br><hr>
+                <h1> input ( radio ) </h1>
+                <p> com o name</p>
+        <!-- <radio> ( coponete de celeção, onde so pode escolher um ou outro), serve para escolhas  tipo genero masculino e femino ou fresco -->
+        <input type="radio" value="masculino" name="genero" > masculino
+        <br> <!-- value, valor, checked de checagem-->
+        <input type="radio" value="fenino" name="genero" > femino
+        <br>
+        <input type="radio" value="fresco" name="genero"> fresco
+           <!-- <name> agrupa o radio, fazendo com q vc so possa seleciona apenas um dos tres  -->
+            <br><hr>
+            <!-- sem o Atributo <name> todas as opção vão ser selecionada -->
+              <h1> input ( radio) </h1>
+              <p>sem o name</p> 
+          <input type="radio" value="masculino"> masculino
+          <br>
+          <input type="radio" value="femino"> femino
+          <br>
+          <input type="radio" value="fresco"> fresco      
+        <br><hr>
+                <h1> checkbox </h1>
+                <p> caixa de  checagem </p>
+        <input type="checkbox"> macho  <!-- ou baixa de selção, qnd a caixa esta selecionada o valor 
+        a ela e enviado como formulario, e qnd nao marcado nem um valor e enviado-->
+            <br>
+        <input type="checkbox"> femea
+        
+        <br><hr>
+                    <h1> select </h1>
+                    <p> seleciona uma opção tipo lista</p>
+        <select name="" id="">
+
+            <option value=""> Masculino</option>
+            <option value=""> Femino</option>
+            <option value=""> Fresco </option>
+        </select>
+        <br><hr>
+
+        <h1> type/ file </h1>
+        <p> caixa de emtrada para envia arquivos</p>
+<!-- <file> para envia uma arquivo -->
+        <input type="file">
+        <!-- submit> indica q vc ta querendo envia alguma coisa ( grava ) -->
+        <input type="submit" name="" id="">
+    </form>
+        <!-- action=(ação) vai gera uma ação qnd clica em alguma coisa,
+         method=(clilca em alguma coisa, vai ativa um desses 3 ) tem 3 metados get, put, post -->
+<br><hr> <br><br>
+
+   <h1>fieldset</h1>
+   <p> cria um formulario </p>
+
+   <!-- fieldset e usado para agrupar controles relacionados  dentro de um formaluario 
+    em outras palavras, tipo fazer onde todas as informações estao -->
+         <fieldset>
+            <!-- ele tbm aplica uma borda em volta de tudo dentre ele  -->
+
+            <legend>contato</legend>
+            <label for="">e-mail</label>
+            <br>
+            <input type="text" placeholder="digite seu gmail" id="">
+            <!-- placeholder vai ser como um indicado dq dever se escrito no local
+             assim q escreve ele some como esta no exemplor aq -->
+            <br>
+            <label for="" >telefone</label>
+            <br>
+            <input type="text" placeholder="digite seu numero"  > 
+            <br>
+            <label for="" >Senhar</label>
+            <br>
+            <input type="password" placeholder="digite sua senhar ">
+            <br>
+            <label for="">envie uma foto sua</label>
+            <br>
+            <input type="file">
+            <br> <br><br>
+            <label for=""> envia seu regristo </label>
+            <br>
+            <button type="button"> 
+                 <img src="img/botao.jpg" width="25" height="25" alt="imagem"> 
+                  
+                </button> 
+         </fieldset>
+</body>
+</html>
