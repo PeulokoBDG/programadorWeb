@@ -1,0 +1,59 @@
+#cabecalho{
+    background-color: aqua;
+}
+
+#conteudo-principal{
+    background-color: rgb(243, 173, 173);
+padding: 10px;
+
+}
+
+img{
+    width: 484px;
+    height: 100px;
+}
+.Produto{
+
+    
+    background-color: aqua;
+    margin: 10px;
+    
+}
+
+#rodape{
+    background-color: rgb(120, 206, 146);
+}
+.azul{
+    color: rgb(255, 15, 27);
+    font-size: 30px;
+}
+
+.conteudo{
+    border-width: 15px ;
+    border-style: solid;
+    border-color: black red;
+    padding: 1cm;
+    text-align: center;
+}
+
+.tamanho{
+    
+    font-size: 300%;
+}
+
+.letras{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-style: italic;
+    text-decoration: line-through; 
+}
+
+
+.fundo1{
+
+    background-image: url(../image/blabla.jfif);
+    background-size: cover;
+    background-position: center;
+    bac
+}
