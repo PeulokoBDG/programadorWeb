@@ -1,0 +1,42 @@
+
+body{
+    background-image: url(../imagens/fundo.png);
+    display: flex;
+    width: 900px;
+}
+
+#principal{
+    background-color: #d2d2d2;
+}
+
+
+#menu{
+    background-color: rgb(223, 205, 129);
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding: 15px;
+    
+    
+}
+
+a{ 
+    text-decoration: none;
+    color: #4b566a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#texto{
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding: 15px;
+    
+}
+
+#final{
+    text-align: center;
+}
+
+.a{
+    border: #c3c3ae solid 10px;
+}
