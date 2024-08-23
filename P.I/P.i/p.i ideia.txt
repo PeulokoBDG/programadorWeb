@@ -1,0 +1,16 @@
+estrutura do site
+
+•	Chat pra pedido e pagar na hora da entrega
+•	site varias páginas
+•	Cadastro e login
+•	Home
+•	História da loja
+•	Cardápio
+•	Carrinho
+
+Equipes
+
+Ednaldo, maria Karol, Gustavo Matheus, Natan Mauricio, andre, Gabriel e pamela
+
+Front-end (estetica do site)=maurico, ednaldo, vitoria, karol (pamela)
+Back-end (funcionalidades do site=Matheus, nathan, Gustavo, Gabriel, e andre(pamela)
